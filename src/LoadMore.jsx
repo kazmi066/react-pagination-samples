@@ -3,7 +3,7 @@ import Airline from "./components/Airline";
 import Container from "./components/Container";
 import PersonInfo from "./components/PersonInfo";
 
-export default function Home() {
+export default function LoadMore() {
   const [page, setPage] = useState(0);
   const [pageSize, setPageSize] = useState(5);
   const [people, setPeople] = useState([]);
