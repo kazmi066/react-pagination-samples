@@ -4,6 +4,7 @@ import InfiniteScroll from "./InfiniteScroll";
 import Paginate from "./Paginate";
 
 function App() {
+  console.log("Henlo");
   return (
     <>
       <BrowserRouter>
